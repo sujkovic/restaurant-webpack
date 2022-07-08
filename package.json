@@ -1,0 +1,28 @@
+{
+  "name": "restaurant-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "start": "npm serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujkovic/restaurant-webpack.git"
+  },
+  "author": "Adrian Sujkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujkovic/restaurant-webpack/issues"
+  },
+  "homepage": "https://github.com/sujkovic/restaurant-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
