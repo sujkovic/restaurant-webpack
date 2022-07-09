@@ -5,7 +5,7 @@ const homepage = () => {
     homeBody.classList.add('homeBody');
     homeBodyMainText.classList.add('homeBodyMainText');
     homeBodySubText.classList.add('homeBodySubText');
-    homeBodyMainText.textContent = 'Brooklyn\'s finest brick oven pizza';
+    homeBodyMainText.textContent = 'Brooklyn\'s Finest Brick Oven Pizza';
     homeBodySubText.textContent = 'Established in 2006';
     homeBody.append(homeBodyMainText);
     homeBody.append(homeBodySubText);

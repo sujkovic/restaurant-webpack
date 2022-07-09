@@ -7,7 +7,6 @@ module.exports = {
     filename: 'main.js',
     clean: true,
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
     assetModuleFilename: '[name][ext]'
   },
   devtool: 'inline-source-map',
