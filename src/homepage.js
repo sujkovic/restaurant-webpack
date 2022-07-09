@@ -1,5 +1,15 @@
 const homepage = () => {
-    alert('hi');
+    let homeBody = document.createElement('div');
+    let homeBodyMainText = document.createElement('div');
+    let homeBodySubText = document.createElement('div');
+    homeBody.classList.add('homeBody');
+    homeBodyMainText.classList.add('homeBodyMainText');
+    homeBodySubText.classList.add('homeBodySubText');
+    homeBodyMainText.textContent = 'Brooklyn\'s finest brick oven pizza';
+    homeBodySubText.textContent = 'Established in 2006';
+    homeBody.append(homeBodyMainText);
+    homeBody.append(homeBodySubText);
+    document.querySelector('#content').append(homeBody);
 }
 
 export default homepage;
